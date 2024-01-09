@@ -12,7 +12,7 @@ const Newsletter = () => {
                         <input type="text" placeholder="Enter your email address" class="border-0  rounded-[50px] p-3 outline-0 w-full" />
                         <div className="text-center">
                             <button onClick={() => setShowModal(true)}
-                                className="me-2 hidden sm:block bg-[#313EF7] rounded-[56px] border-none py-3 px-7 text-white text-[16px] font-ff-mont font-semibold leading-7 ">Subscribe</button>
+                                className="me-2 hidden sm:block bg-[#313EF7] rounded-[56px]  py-3 px-7 text-white text-[16px] font-ff-mont font-semibold border leading-7 hover:bg-white hover:border hover:border-indigo-600 hover:text-black duration-300 ">Subscribe</button>
                             {showModal ? (
                                 <>
                                     <div
@@ -54,7 +54,7 @@ const Newsletter = () => {
                     </div>
                     <div className="text-center ">
                             <button onClick={() => setShowModal(true)}
-                                className="me-2 mt-6 w-full sm:hidden block bg-[#313EF7] rounded-[56px] border-none py-3 px-7 text-white text-[16px] font-ff-mont font-semibold leading-7 ">Subscribe</button>
+                                className="me-2 mt-6 w-full sm:hidden block bg-[#313EF7] rounded-[56px] border py-3 px-7 text-white text-[16px] font-ff-mont font-semibold leading-7 hover:bg-white hover:border hover:border-indigo-600 hover:text-black duration-300">Subscribe</button>
                             {showModal ? (
                                 <>
                                     <div
@@ -93,9 +93,6 @@ const Newsletter = () => {
                                 </>
                             ) : null}
                         </div>
-                    {/* <div className='max-w-[493px]  mt-7'>
-                        <button class=" w-full  flex justify-center  sm:mx-0 items-center  sm:hidden  bg-[#313EF7] rounded-[56px] border-none py-3 px-7 text-white text-[16px] font-ff-mont font-semibold leading-[28px]">Subscribe</button>
-                    </div> */}
                 </div>
             </div>
         </>

@@ -52,7 +52,7 @@ const LetsFly = () => {
                             </div>
                         </div>
                     </div>
-                    <button className=" px-[45px] py-3.5 mt-[40px] bg-indigo-600 rounded-[56px] shadow border justify-start items-start gap-2.5 inline-flex  basis-0 text-center text-white text-base  duration-700 font-semibold font-ff-mont leading-7 hover:bg-blue-100 hover:text-indigo-600">
+                    <button className=" px-[45px] py-3.5 mt-[40px] bg-indigo-600 rounded-[56px] shadow border justify-start items-start gap-2.5 inline-flex  basis-0 text-center text-white text-base  font-semibold font-ff-mont leading-7 hover:bg-white hover:border hover:border-indigo-600 hover:text-black duration-300">
                         Book Now
                     </button>
                 </div>

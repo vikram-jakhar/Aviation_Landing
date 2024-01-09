@@ -3,9 +3,6 @@ import { CheckIn, CheckOut, Location, Travelers } from '../svgfolder/Svg';
 
 
 export const EconomyTabs = () => {
-    // modals
-    const [showModal, setShowModal] = useState(false);
-
     // tabs
     const [data, setdata] = useState("tab1")
     function tabs(tab) {
@@ -57,8 +54,8 @@ export const EconomyTabs = () => {
                         </div>
                     </div>
                 </div>
-                <button  className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-ff-mont leading-7">Book Now</button>
+                <button  className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);] border px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
+                    grow shrink basis-0 text-center text-white text-base font-semibold font-ff-mont leading-7 hover:bg-white hover:border hover:border-indigo-600 hover:text-black duration-300">Book Now</button>
                 
             </div >}
             {data === "tab2" && <div className='w-full min-h-[216px] bg-white rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10);] flex-col justify-center items-center gap-2.5 inline-flex p-10'>
@@ -100,8 +97,8 @@ export const EconomyTabs = () => {
                         </div>
                     </div>
                 </div>
-                <button  className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-ff-mont leading-7">Book Now</button>
+                <button  className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);] border px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
+                    grow shrink basis-0 text-center text-white text-base font-semibold font-ff-mont leading-7 hover:bg-white hover:border hover:border-indigo-600 hover:text-black duration-300">Book Now</button>
                 
             </div >}
             {data === "tab3" && <div className='w-full min-h-[216px] bg-white rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10);] flex-col justify-center items-center gap-2.5 inline-flex p-10'>
@@ -143,8 +140,8 @@ export const EconomyTabs = () => {
                         </div>
                     </div>
                 </div>
-                <button className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-ff-mont leading-7">Book Now</button>
+                <button className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] border justify-start items-start gap-2.5 inline-flex
+                    grow shrink basis-0 text-center text-white text-base font-semibold font-ff-mont leading-7 hover:bg-white hover:border hover:border-indigo-600 hover:text-black duration-300">Book Now</button>
                 
             </div >}
         </div>

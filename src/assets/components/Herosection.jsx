@@ -31,9 +31,9 @@ const Herosection = () => {
                                 <li><a className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 text-base font-semibold font-ff-mont leading-7' href="#">Schedule</a></li>
                                 <li><a className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 text-base font-semibold font-ff-mont leading-7' href="#">Passengers</a></li>
                                 <li><a className='text-white cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0 py-2.5 after:h-[2px] after:rounded-full after:bg-indigo-600 hover:text-indigo-600 text-base font-semibold font-ff-mont leading-7' href="#">Your Orders</a></li>
-                                <li><a className="sm:hidden text-white text-[34px] lg:text-[16px] font-semibold leading-7 font-ff-mont border border-solid border-white rounded-[59px] px-4 py-1 " href="">Let’s Fly</a></li>
+                                <li><a className="sm:hidden text-white text-[34px] lg:text-[16px] font-semibold leading-7 font-ff-mont border border-solid border-white rounded-[59px] px-4 py-1 hover:bg-indigo-600  duration-300 " href="">Let’s Fly</a></li>
                             </ul>
-                            <button className=" hidden sm:block text-white text-[16px] font-semibold leading-7 font-ff-mont border border-solid border-white rounded-[59px] px-4 py-1 ">Let’s Fly</button>
+                            <button className=" hidden sm:block text-white text-[16px] font-semibold leading-7 font-ff-mont border border-solid border-white rounded-[59px] px-4 py-1 hover:bg-indigo-600  duration-300 ">Let’s Fly</button>
                             <label className=" lg:hidden" onClick={MobView}>
                                 {first ? (
                                     <div className="z-20 relative cursor-pointer">
