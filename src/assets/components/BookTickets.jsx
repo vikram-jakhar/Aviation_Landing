@@ -88,7 +88,7 @@ const BookTickets = () => {
                 <img
                   src={img_s}
                   alt="Sliderimg"
-                  className="xl:w-full lg:w-[82%] max-w-[300px]  object-fill   sm:max-w-[390px]"
+                  className="xl:w-full lg:w-[60%] max-w-[300px]  object-fill   sm:max-w-[390px]"
                 />
               </div>
 

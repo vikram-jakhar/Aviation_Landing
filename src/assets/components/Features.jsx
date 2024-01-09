@@ -31,8 +31,8 @@ const Features = () => {
     ];
 
     const Card = carditems.map((items) => (
-        <div key={items.arrowIcon} className='flex items-center justify-center'>
-            <div className={`${items.padding} max-w-[282px]  px-5 py-10 rounded-[185px] bg-white flex flex-col justify-center items-center cstomshadow`}>
+        <div key={items.arrowIcon} className='flex items-center justify-center' >
+            <div className={`${items.padding} max-w-[282px]  px-5 py-10 rounded-[185px] bg-white flex flex-col justify-center items-center cstomshadow`} >
                 <div className='w-[70px] h-[70px] rounded-[50px] bg-[#F5F5FF]  flex justify-center items-center'>
                     {items.svgicon}
                 </div>
