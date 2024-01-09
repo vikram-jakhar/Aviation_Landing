@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .cstomshadow{
+        @apply shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)]
+    }
+}
