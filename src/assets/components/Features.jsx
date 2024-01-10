@@ -32,13 +32,13 @@ const Features = () => {
 
     const Card = carditems.map((items) => (
         <div key={items.arrowIcon} className='flex items-center justify-center' >
-            <div className={`${items.padding} max-w-[282px]  px-5 py-10 rounded-[185px] bg-white flex flex-col justify-center items-center cstomshadow`} >
+            <div className={`${items.padding} max-w-[282px] group px-5 py-10 rounded-[185px] bg-white flex flex-col justify-center items-center cstomshadow`} >
                 <div className='w-[70px] h-[70px] rounded-[50px] bg-[#F5F5FF]  flex justify-center items-center'>
                     {items.svgicon}
                 </div>
                 <h2 className='text-[#030522] text-center font-ff-mont text-2xl font-extrabold leading-[150%] pt-4  '>{items.hTag}</h2>
                 <p className='text-[#030522A6] self-stretch pt-3 text-center font-ff-mont text-[16px] font-normal leading-[150%] max-w-[239px]'>{items.pTag}</p>
-                <div className='w-[50px] h-[50px] rounded-[50%] mt-8 bg-[#030522] flex justify-center items-center cursor-pointer'>
+                <div className='w-[50px] h-[50px] rounded-[50%] mt-8 bg-[#030522] flex justify-center items-center cursor-pointer group-hover:bg-white group-hover:border group-hover:stroke-black group-hover:border-[black] duration-300 group-hover:translate-x-2'>
                     {items.arrowIcon}
                 </div>
             </div>
